@@ -16,6 +16,7 @@ public class Client extends JFrame{
 	private Socket connection;
 	
 	public Client(String host){
+		//we're testing
 		super("Client");
 		serverIP = host;
 		userText = new JTextField();
